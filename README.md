@@ -1,5 +1,5 @@
 # mywebsite 
-This is a repository with fole of my website.
+This is a repository with folders of my website.
 
 Link of my website: https://giroindustries.alwaysdata.net/giro.sol/
 
