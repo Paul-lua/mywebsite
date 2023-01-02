@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+
+    <!-- meta tags for discord, twitter and such, added by cyph -->
+    <meta property="og:title" content="methamphetamine.solutions edit - Showcase" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://giro.pw/methrehost" />
+    <meta property="og:image" content="http://giro.pw/methrehost/methlogo.png" />
+    <meta property="og:description" content="edit of methamphetamine.solutions" />
+    <meta name="theme-color" content="#5c5c5c">
+    <!-- end -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>giro Showcase</title>
+    <style>
+      body {
+        background-color: #171717;
+      }
+      .emscripten_border {
+        border: 1px solid black;
+        display: table;
+        margin: 0 auto;
+
+      }
+      .emscripten {
+        display: block;
+        border: 0px none;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="emscripten_border">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+    </div>
+    <script>
+      Module = {
+        canvas: document.getElementById('canvas')
+      }
+    </script>
+    <script async type="text/javascript" src="index.js"></script>
+
+  </body>
+</html>
