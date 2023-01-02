@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:900,400);
+body {
+	font-family: Raleway, Helvetica Neue, Helvetica, sans-serif;
+	background-color: #101010;
+	margin: 0;
+	
+}
+
+#container {
+	margin: auto;
+  width: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.bar {
+  background: linear-gradient(90deg, #ff4949, #ffb47c, #ffdd7c, #f9ff7c, #ffd17c, #ffc07c, #fe4e4e);
+    background-size: 1400% 1400%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    -o-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+	padding: 0;
+	margin: 0;
+	height: 3px;
+	border-bottom: 1px solid #000
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#container h1 {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 62pt;
+	font-weight: normal;
+	color: #eee;
+	height: auto;
+	max-height: 120px
+}
+
+#container span {
+	color: #f97b7b
+}
+
+#container ul {
+	margin: 0 auto;
+	padding: 0;
+	display: table;
+	color: #eee;
+	list-style: none;
+	list-style-type: none;
+	text-align: center;
+	visibility: hidden
+}
+
+#container ul li {
+  text-decoration: none;
+	position: relative;
+	display: table-cell;
+	text-align: center
+}
+
+#container ul li a {
+  color:#eee;
+	position: relative;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 31pt;
+	padding: .3em
+}
+
+span {
+	color: #f97b7b;
+}
+
+#what h2 {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 25pt;
+	font-weight: normal;
+	color: #eee;
+	height: auto;
+	max-height: 120px
+}
+#why h2 {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 25pt;
+	font-weight: normal;
+	color: #eee;
+	height: auto;
+	max-height: 120px
+}
+#where h2 {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 25pt;
+	font-weight: normal;
+	color: #eee;
+	height: auto;
+	max-height: 120px
+}
+#what p {
+	color:white;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20pt;
+	padding: 50px;
+}
+#why p {
+	color:white;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20pt;
+	padding: 50px;
+}
+#where p {
+	color:white;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20pt;
+	padding: 50px;
+}
+#spanhack span {
+	color: gray;
+	font-size: 10pt;
+}
+#where {
+	padding-bottom: 50px;
+}
+.box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 70%;
+	margin: auto;
+ }
+ .item1 {
+	width: 500px;
+	height: 300px;
+	background-image: url(/static/img/cyphware.png);
+	background-size: cover;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f97b7b;
+	margin: 10px auto;
+	border-radius: 20px;
+ }
+ .item2 {
+	width: 500px;
+	height: 300px;
+	background-image: url(/static/img/cyph.pw.png);
+	background-size: cover;	
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f97b7b;
+	margin: 10px auto;
+	border-radius: 20px;
+ }
+ 
+ #cyphware h2 {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 90px;
+	font-size: 25pt;
+	font-weight: normal;
+	color: #f97b7b;
+	height: auto;
+	max-height: 120px
+}
+#cyphpw h2 {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 25pt;
+	font-weight: normal;
+	color: #f97b7b;
+	height: auto;
+	max-height: 120px
+}
+#cyphware p {
+	color:white;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20pt;
+	padding: 50px;
+}
+#cyphpw p {
+	color:white;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20pt;
+	padding: 50px;
+}
